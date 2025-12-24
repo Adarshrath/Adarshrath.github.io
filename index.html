@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Adarsh Kumar Rath | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-26WPEY96YR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-26WPEY96YR');
+  </script>
+
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<canvas id="particles"></canvas>
+
+<!-- THEME TOGGLE -->
+<div id="themeSwitch">🌙</div>
+
+<!-- LEFT NAV -->
+<aside class="nav">
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#skills">Skills</a>
+    <a href="#life">Life</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</aside>
+
+<main>
+
+<section id="home" class="hero section">
+  <div class="hero-text">
+    <h1>Adarsh Kumar Rath</h1>
+    <h2>Software · Systems · Data</h2>
+
+    <p class="intro">
+      I am a Computer Science undergraduate who enjoys building systems from the
+      ground up with a strong focus on logic, ownership, and long-term reliability.
+      I work across software development and data analytics, and I prefer deeply
+      understanding how systems behave rather than relying on surface-level solutions.
+      <br><br>
+      My approach to engineering is intentional: every decision should solve a real
+      problem, scale logically, and remain maintainable over time.
+    </p>
+
+    <div class="buttons">
+      <a class="btn primary" href="resume.pdf" target="_blank">Resume</a>
+      <a class="btn secondary" href="https://github.com/Adarshrath" target="_blank">GitHub</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/adarsh-kumar-rath-151808204/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+
+  <div class="hero-photo">
+    <img src="profile.png" alt="Adarsh Kumar Rath"/>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <h3>Skills</h3>
+  <div class="grid">
+    <div class="tile"><b>Languages</b><br><span>Python, Java, C, Swift, SQL</span></div>
+    <div class="tile"><b>Backend</b><br><span>Flask, REST APIs, HTTP</span></div>
+    <div class="tile"><b>Mobile</b><br><span>SwiftUI, MVVM</span></div>
+    <div class="tile"><b>Data & BI</b><br><span>Pandas, Power BI, Excel</span></div>
+    <div class="tile"><b>Databases</b><br><span>MySQL, SQLite</span></div>
+    <div class="tile"><b>Core CS</b><br><span>DSA, OOP, OS, DBMS</span></div>
+    <div class="tile"><b>Cloud</b><br><span>AWS, SAP BTP</span></div>
+  </div>
+</section>
+
+<section id="life" class="section">
+  <h3>Life Outside Code</h3>
+  <div class="grid">
+    <div class="tile">🏍 Bike Rides<br><span>Long solo rides & route exploration</span></div>
+    <div class="tile">🌄 Adventures<br><span>Trekking & outdoor challenges</span></div>
+    <div class="tile">🧭 Travel<br><span>Understanding places & cultures</span></div>
+    <div class="tile">🎧 Music<br><span>Focus and mental reset</span></div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h3>Projects</h3>
+  <p class="hint">Click a project to read a full technical breakdown</p>
+
+  <div class="grid">
+    <div class="project-card" data-project="p1"><h4>iOS Habit Reducer App</h4><p>SwiftUI · iOS</p></div>
+    <div class="project-card" data-project="p2"><h4>Travel Companion (ML)</h4><p>Python · ML</p></div>
+    <div class="project-card" data-project="p3"><h4>Sales Insights Dashboard</h4><p>SQL · Power BI</p></div>
+    <div class="project-card" data-project="p4"><h4>E-commerce Order Analytics</h4><p>SQL · Analytics</p></div>
+    <div class="project-card" data-project="p5"><h4>DSA Problem Tracker</h4><p>Java · DSA</p></div>
+  </div>
+</section>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<section id="contact" class="section contact">
+  <h3>Contact</h3>
+  <p>Email: rath.adarsh2004@gmail.com</p>
+  <p>Phone: +91 8483922278</p>
+</section>
+
+</main>
+</body>
+</html>
